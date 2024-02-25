@@ -1,0 +1,39 @@
+.stepProgress {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: left;
+  padding-left: 15px;
+}
+.progressContainer {
+  width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 2rem;
+}
+.progressGroupOne {
+  grid-column: 1/2;
+}
+.progressGroupTwo{
+  grid-column: 3/4;
+}
+.progressGroupThree{
+  grid-column: 5/6;
+}
+.progressIcon {
+  display: inline-block;
+  border: 2px solid #4F4F4F;
+  width: 1.5rem;
+  border-radius: 99em;
+}
+.progressLabel {
+  margin-left: 0.5rem;
+}
+.connectLine {
+  display: block;
+  height: 1px;
+  background-color: #4f4f4f;
+  margin-top: 1rem;
+}
+
