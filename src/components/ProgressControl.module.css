@@ -1,0 +1,24 @@
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+button {
+  width: 200px;
+}
+
+.next {
+  margin-right: 6rem; 
+}
+.prev {
+  margin-left: 1rem;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-right: 8rem;
+  width:41rem;
+  
+  border-color: #e0e0e0;
+}

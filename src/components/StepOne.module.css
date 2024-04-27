@@ -1,0 +1,55 @@
+.stepOne {
+  width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(4, 4rem);
+}
+.formTitle {
+  grid-column: 1/4;
+}
+.formTitleText {
+  text-align: left;
+  padding-left: 15px;
+}
+.formBody {
+  width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(3, 4rem);
+  grid-gap: 0.5rem
+}
+
+.labelName, .labelTitle, .labelPhone, .labelEmail, .labelLocation, .labelAddress {
+  font-size: 0.8rem;
+}
+.inputTitle, .inputPhone, .inputLocation {
+  grid-column: 1/2;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  padding-left: 15px;
+}
+.inputName, .inputEmail, .inputAddress {
+  grid-column: 2/4;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 0.8rem;
+}
+.name, .phone, .address, .email{
+  all: unset;
+  height: 1.8rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-indent: 10px;
+  margin-top:5px;
+}
+select {
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 30px;
+  width:150px;
+  text-indent: 5px;
+  margin-top: 5px;
+  background-color: #ffffff;
+}
+

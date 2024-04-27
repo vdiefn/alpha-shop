@@ -1,0 +1,84 @@
+.stepThree {
+  width: 50rem;
+}
+
+.formTitle {
+  grid-column: 1/4;
+}
+
+.formTitleText {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.formBody {
+  width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 4rem);
+}
+
+
+
+label {
+  display: flex;
+  justify-content: start;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.cardholder, .cardNumber {
+  all: unset;
+  grid-column: 1/4;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+}
+
+.cardholderInput, .cardNumberInput{
+  height: 1.8rem;
+  width: 20rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-indent: 0.5rem;
+}
+
+.expiredDate {
+  all: unset;
+  grid-column: 1/4;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+}
+
+.expiredDateInput {
+  height: 1.8rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-indent: 0.5rem;
+}
+
+.ccv {
+  grid-column: 6/8;
+  width: 6rem;
+  height: 2rem;
+  margin-top: 0.8rem;
+}
+
+.ccvInput {
+  height: 1.8rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-indent: 0.5rem;
+}
+
+
