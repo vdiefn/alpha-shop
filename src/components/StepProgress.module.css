@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 2rem;
+  margin-left: 1rem;
 }
 .progressGroupOne {
   grid-column: 1/2;
@@ -35,5 +36,8 @@
   height: 1px;
   background-color: #4f4f4f;
   margin-top: 1rem;
+  margin-right: 1rem;
 }
-
+.text {
+  padding-left: 0.4rem;
+}

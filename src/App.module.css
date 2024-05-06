@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.containerLeft {
+  width: 65%;
+}
+.containerRight {
+ width: 35%;
+}
